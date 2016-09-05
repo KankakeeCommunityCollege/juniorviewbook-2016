@@ -1,0 +1,35 @@
+name : Junior Viewbook KCC
+brand : Kankakee Community College
+tagline : "ENHANCING QUALITY OF LIFE THROUGH LEARNING"
+description : "No pressure, but choosing a college is BIG. KCC is a smart choice. You can even enroll in classes while you’re in high school."
+keyword :
+url : http://localhost:4000/
+email : rehmpke@gmail.com
+facebook : "http://www.facebook.com/pages/Kankakee-IL/Kankakee-Community-College/126145965854"
+pinterest : "http://pinterest.com/kccedu/"
+twitter : http://twitter.com/KCCedu
+youtube : "http://www.youtube.com/kankakeecommcollege"
+linkedin : "http://www.linkedin.com/company/kankakee-community-college"
+instagram : "http://instagram.com/kccedu"
+flickr : "http://www.flickr.com/kccedu"
+github : rehmpke
+author : Roger Ehmpke
+analytics : UA-4328282-13
+year : 2016
+port : 4000
+markdown : kramdown
+permalink: pretty
+sass:
+  sass_dir: assets/css
+  style: nested
+  sourcemap: true
+exclude :
+  - node_modules
+  - Gruntfile.js
+  - package.json
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - bower.json
+  - assets/scss

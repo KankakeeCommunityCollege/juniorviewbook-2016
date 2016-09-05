@@ -1,0 +1,10 @@
+/* TEAM */
+  Developer: Roger Ehmpke
+  Site: juniors.kcc.edu
+  Twitter: @rehmpke
+  Github: @rehmpke
+  Location: Kankakee, IL
+
+/* SITE */
+  Standards: HTML5, MD, SCSS/CSS3, JS
+  Components: Zurb Foundation, Jekyll, jQuery, Modernizr, bower, grunt
