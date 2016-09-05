@@ -1,0 +1,42 @@
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 200;
+	@media #{$medium-up} {
+	}
+	@media #{$large-up} {
+	}
+}
+
+//helper for font weight
+//Open+Sans:400,700,800|Raleway:400,200,700
+.font-light {
+	font-weight: 200;
+}
+.font-weight-normal {
+	font-weight: 400;
+}
+.font-bold {
+	font-weight: 700;
+}
+.font-heavy {
+	font-weight: 800;
+}
+
+/* my changes */
+@import "1-tools/vars";
+
+@import "3-modules/typeography";
+@import "3-modules/header";
+@import "3-modules/footer";
+@import "3-modules/buttons";
+@import "3-modules/link";
+@import "3-modules/global-nav";
+@import "3-modules/socialsharing";
+@import "3-modules/mailinglist";
+
+@import "4-pages/home/enroll";
+@import "4-pages/home/whats-new";
+@import "4-pages/home/find-your-fit";
+@import "4-pages/home/fifty-five-choices";
+@import "4-pages/paying-for-college";

@@ -1,0 +1,113 @@
+.whats-new{
+  min-height: 598px;
+  color: $text-secondary-colour;
+  background-color: #ffffff;
+  //background-image: url('#{$imagedir}whats-new-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.whats-new h2{
+  font-size: 78px;
+  font-family: $secondaryfont-stack;
+  line-height: 1.0em;
+}
+
+.whats-new h2 span{
+  font-size: 78px;
+  font-family: 'arial';
+}
+
+.whats-new figure {
+  display:inline-block;
+  height: 175px;
+  width: 270px;
+  padding: 20px 15px;
+  margin-right: -37px;
+  border-radius: 50%;
+  vertical-align: top;
+  text-align:center;
+}
+
+.whats-new figcaption {
+  width: 100%;
+  height: 100%;
+}
+.whats-new figcaption a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #008bab;
+  font-weight: bold;
+}
+
+.whats-new figure span {
+  display: block;
+  font-weight: normal;
+}
+
+.year-2013, .year-2014, .year-2016 {
+  display: block;
+  height: 112px;
+  width: 112px;
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+  margin: 0 auto
+}
+.whats-new .year-2013 {
+  background-image: url('/assets/img/year_2013.png');
+}
+
+.whats-new .year-2014 {
+  background-image: url('/assets/img/year_2014.png');
+}
+
+.whats-new .year-2016 {
+  background-image: url('/assets/img/year_2016.png');
+}
+
+@media screen and (max-width: 489px) {
+.whats-new h2{
+  font-size: 36px;
+  font-family: $secondaryfont-stack;
+  text-indent: 0;
+  line-height: 1.0em;
+}
+
+.whats-new h2 span{
+  font-size: 36px;
+}
+
+.whats-new figure {
+  display: block;
+  height: 100%;
+  width: 90%;
+  padding: 20px 60px;
+  margin-right: auto;
+  margin-left: auto;
+  vertical-align: top;
+  text-align: center;
+  border-radius: 0;
+}
+
+}
+
+/* Portrait and Landscape */
+@media screen and (min-width: 489px) and (max-width: 800px) {
+  .whats-new h2{
+    font-size: 50px;
+    font-family: $secondaryfont-stack;
+    text-indent: 0;
+    line-height: 1.0em;
+  }
+
+  .whats-new h2 span{
+    font-size: 50px;
+  }
+
+  .whats-new .figure-set{
+    width: 86%;
+    text-align: center;
+  }
+}

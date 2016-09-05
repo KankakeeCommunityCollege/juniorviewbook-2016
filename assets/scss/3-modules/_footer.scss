@@ -1,0 +1,111 @@
+.global-footer {
+  font-family: "Source Sans Pro", Verdana, sans-serif;
+  line-height: 20px;
+}
+.global-footer a:hover {
+  color: #999999;
+}
+
+
+.footer-site-map {
+  color: $white;
+  background-color: $primary-blue;
+  font-size: 15px;
+  padding: 50px 0;
+}
+@media screen and (max-width: 800px) and (min-width: 481px) {
+  .footer-site-map {
+    padding: 50px 0 30px;
+  }
+}
+
+@media screen and (max-width: 481px) {
+  .footer-site-map {
+    padding: 50px 0 30px;
+  }
+}
+
+.footer-site-map h5 {
+  color: $white;
+}
+.footer-site-map a {
+  color: #ccc;
+}
+
+
+.footer-nav {
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .global-footer.microsite .footer-nav {
+    text-align: center;
+  }
+}
+.footer-nav li {
+  list-style-type: none;
+  line-height: 25.5px;
+}
+
+
+.footer-logo {
+  position: relative;
+  top: -20px;
+  left: -25px;
+  display: block;
+  height: 25px;
+  width: 333px;
+  margin: 10px 0 0 20px;
+  background-image: url(/assets/img/kankakee-community-college-word-logo.svg);
+  background-size: cover;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 481px) {
+  .footer-logo {
+    left: -24px;
+    height: 25px;
+    width: 298px;
+    margin-bottom: 0;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 800px) and (min-width: 481px) {
+  .footer-logo {
+    left: -27px;
+    margin-bottom: 0;
+  }
+}
+
+
+.footer-copyright {
+  color: #d4d4d4;
+  background-color: $primary-blue;
+  font-size: 13px;
+  padding: 25px 0;
+}
+.footer-copyright a {
+  color: $white;
+}
+@media only screen and (min-width: 480px) {
+  .footer-copyright a {
+    display: block;
+  }
+}
+@media only screen and (min-width: 601px) {
+  .footer-copyright a {
+    display: inline-block;
+    margin-left: 5px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .footer-copyright-links {
+    display: block;
+  }
+  .footer-copyright-links a {
+    display: block;
+  }
+}
