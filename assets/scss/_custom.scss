@@ -24,19 +24,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* my changes */
-@import "1-tools/vars";
+@import "0-tools/vars";
 
-@import "3-modules/typeography";
-@import "3-modules/header";
-@import "3-modules/footer";
-@import "3-modules/buttons";
-@import "3-modules/link";
-@import "3-modules/global-nav";
-@import "3-modules/socialsharing";
-@import "3-modules/mailinglist";
+@import "1-base/typeography";
+@import "1-base/buttons";
+@import "1-base/link";
 
-@import "4-pages/home/enroll";
+@import "3-layout/grid";
+@import "3-layout/header";
+@import "3-layout/footer";
+@import "3-layout/global-nav";
+
+@import "2-modules/socialsharing";
+@import "2-modules/mailinglist";
+
+@import "4-pages/home/hero-shot";
+@import "4-pages/home/saving-time-money";
 @import "4-pages/home/whats-new";
 @import "4-pages/home/find-your-fit";
 @import "4-pages/home/fifty-five-choices";
-@import "4-pages/paying-for-college";

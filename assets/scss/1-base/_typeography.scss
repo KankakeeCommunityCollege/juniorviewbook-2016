@@ -17,14 +17,14 @@ h4,
 h5 {
   margin: 0 0 25.5px 0;
   color: $white;
-  font-family: "Source Sans Pro", Verdana, sans-serif;
+  font-family: $basefont-stack;
   font-weight: 400;
 }
 
-h1.centered, 
-h2.centered, 
-h3.centered, 
-h4.centered, 
+h1.centered,
+h2.centered,
+h3.centered,
+h4.centered,
 h5.centered { text-align: center; }
 
 h1 {

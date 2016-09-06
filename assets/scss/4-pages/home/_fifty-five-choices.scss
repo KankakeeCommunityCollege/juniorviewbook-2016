@@ -1,26 +1,31 @@
 .fifty-five-quality-choices {
 
-  color: $text-secondary-colour;
-  background-color: #008bab;
+  color: $text-colour;
+  background-image: url('#{$imagedir}55-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .fifty-five-quality-choices a {
-  color: $text-secondary-colour;
+  color: $text-colour;
   text-decoration: underline;
 }
 
 .fifty-five-quality-choices h2{
-  height:134px;
-  //background-image: url('#{$imagedir}58.png');
+  height:148px;
+  background-image: url('#{$imagedir}55.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
+  text-indent: -9999px;
 }
 
 .fifty-five-quality-choices h3{
   font-size: 29px;
-  font-family: "ArtBrush Medium";
+  font-family: $basefont-stack;
+  font-weight: bolder;
   margin-bottom: 0;
+  color: #008bab;
 }
 
 .fifty-five-quality-choices .information-arrow {
@@ -40,33 +45,44 @@
 
 .fifty-five-quality-choices .information-arrow summary {
   font-size: 29px;
-  font-family: "ArtBrush Medium";
+  font-family: $basefont-stack;
 }
 
 .fifty-five-quality-choices .information-arrow summary {
   outline: none;
 }
 
+.column__panel--white {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.column__panel--white img {
+  margin: 10px;
+}
+
 @media (max-width: 481px) {
 
- .fifty-five-quality-choices .information-arrow {
-  height: 270px;
-}
+   .fifty-five-quality-choices .information-arrow {
+    height: 270px;
+  }
 
-.fifty-five-quality-choices .information-arrow details {
-  position: relative;
-  left: 0;
-  top: 10px;
-  width:193px;
-}
+  .fifty-five-quality-choices .information-arrow details {
+    position: relative;
+    left: 0;
+    top: 10px;
+    width:193px;
+  }
 
-.fifty-five-quality-choices h2{
-  font-size: 36px;
-  font-family: $secondaryfont-stack;
-  text-indent: 0;
-  line-height: 1.0em;
-  background-image: none;
-}
+  .fifty-five-quality-choices h2{
+    background-image: url('#{$imagedir}55.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .fifty-five-quality-choices .row.space-bottom.double {
+    padding-bottom: 0;
+  }
 }
 
 /* Portrait and Landscape */
@@ -76,11 +92,11 @@
   }
 
   .fifty-five-quality-choices .information-arrow details {
-  position: relative;
-  left: 0;
-  top: 10px;
-  width:193px;
-}
+    position: relative;
+    left: 0;
+    top: 10px;
+    width:193px;
+  }
 
   .fifty-five-quality-choices .information-arrow {
   height: 500px;

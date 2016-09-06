@@ -7,23 +7,21 @@ keywords: Kankakee Community College, juniors, high school
 <section class="hero-shot">
   <div class="row space-top double">
     <div class="column">
-      <div class="large-7 medium-7 columns"></div>
+      <div class="large-7 medium-7 columns">
+        <h2></h2>
+      </div>
       <div class="large-5 medium-5 columns">
-        <h2>
-
-          No pressure,<br>but choosing<br>a college is<br><span>Big</span>
-        </h2>
       </div>
     </div>
   </div>
 </section>
 <section class="save-time-money">
   <div class="row space-top space-bottom">
-    <div class="column"><img src="/images/group-people.jpg"></div>
+    <div class="column"><img src="/assets/img/group-people.jpg"></div>
   </div>
-  <div class="row space-top space-bottom">
+  <div class="row space-top">
     <div class="column">
-      <h2 class="centered">Dual Enrollment</h2>
+      <h2 class="centered dual-enrollment">Dual Enrollment</h2>
       <div class="large-5 medium-5 columns">
         <h3>Save money!</h3>
         <p>
@@ -51,11 +49,8 @@ keywords: Kankakee Community College, juniors, high school
 </section>
 <section class="save-time-money">
   <div class="row space-top space-bottom">
-    <div class="column"><img src="/images/bio-girls.jpg"></div>
-  </div>
-  <div class="row space-top space-bottom">
     <div class="column">
-      <h2 class="centered">Dual Credit</h2>
+      <h2 class="centered dual-credit">Dual Credit</h2>
       <div class="large-5 medium-5 columns">
         <h3>Earn both high school &amp; college credit at your school</h3>
       </div>
@@ -67,8 +62,7 @@ keywords: Kankakee Community College, juniors, high school
             </div>
             <div class="large-6 column">
               <h3>Get steps ahead</h3>
-              <h4>Dual Credit</h4>
-              <p>Earn BOTH high school &amp; college credit simultaneously! </p>
+              <p>Earn <b>BOTH</b> high school &amp; college credit simultaneously! </p>
             </div>
           </div>
         </div>
@@ -76,16 +70,18 @@ keywords: Kankakee Community College, juniors, high school
     </div>
   </div>
 </section>
-<section class="fifty-eight-quality-choices">
+<section class="fifty-five-quality-choices">
   <div class="row space-top space-bottom double">
     <div class="column">
       <h2 class="centered">58 Choices for a quality education</h2>
-      <div class="large-4 columns">
+    </div>
+    <div class="column column__panel--white">
+      <div class="large-7 columns">
         <h3>Transfer programs</h3>
         <p>
           You can transfer after KCC and then complete a bachelor's degree. In fact, we
           guarantee it! With transfer agreements, you can finish your KCC degree then enter
-          any four-year public university in illinois as a junior.<br><a href="http://www.kcc.edu/future/choosing/transfer/Pages/default.aspx">Learn more about our transfer programs</a>
+          any four-year public university in Illinois as a junior.<br><a href="http://www.kcc.edu/future/choosing/transfer/Pages/default.aspx">Learn more about our transfer programs</a>
         </p>
         <h3>Occupational programs</h3>
         <p>
@@ -93,14 +89,11 @@ keywords: Kankakee Community College, juniors, high school
           accreditation standards. <a href="http://www.kcc.edu/future/choosing/occupational/Pages/default.aspx">Many of these programs </a>offer short-term options such as
           certificates which take from one semester to one year.<br>
         </p>
+        <h3>Earnings Opportunity</h3>
+        <p>If you are excelling in class, you may become a tutor or a lab assistant.</p>
       </div>
-      <div class="large-8 columns">
-        <div class="information-arrow">
-          <details>
-            <summary>Earnings Opportunity</summary>
-            <p>If you are excelling in class, you may become a tutor or a lab assistant.    </p>
-          </details>
-        </div>
+      <div class="large-5 columns">
+        <img src="/assets/img/D41_6919.jpg" alt="student in library photo" />
       </div>
     </div>
   </div>
