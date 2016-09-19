@@ -118,6 +118,18 @@
 
 /* Portrait and Landscape */
 @media screen and (min-width: 482px) and (max-width: 1023px) {
+  .dual-enrollment{
+    max-width: 97%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .dual-credit{
+    max-width: 78%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
 .grad-steps-ahead .steps{
   background-image:url('#{$imagedir}steps.png');
   background-repeat: no-repeat;
@@ -125,4 +137,42 @@
   padding-top: 150px;
   margin-top: 25px;
 }
+}
+
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+
+.grad-steps-ahead-g .steps{
+  background-size: 100%;
+}
+}
+
+@media only screen and (min-width: 768px) {
+  .dual-credit{
+    max-width: 78%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .dual-credit{
+    max-width: 69%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .dual-credit{
+    max-width: 70%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .dual-credit{
+    max-width: 68%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
 }

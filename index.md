@@ -38,10 +38,10 @@ keywords: Kankakee Community College, juniors, high school
       <div class="large-7 medium-7 columns grad-steps-ahead">
         <div class="row space-bottom">
           <div class="column">
-            <div class="large-6 column">
+            <div class="large-6 medium-6 column">
               <h3>Take college classes while you<span>'</span>re still in high school</h3>
             </div>
-            <div class="large-6 column">
+            <div class="large-6 medium-6 column">
               <div class="steps-2"></div>
             </div>
           </div>
@@ -60,10 +60,10 @@ keywords: Kankakee Community College, juniors, high school
       <div class="large-7 medium-7 columns grad-steps-ahead-g">
         <div class="row">
           <div class="column">
-            <div class="large-6 column">
+            <div class="large-6 medium-6 column">
               <div class="steps"></div>
             </div>
-            <div class="large-6 column">
+            <div class="large-6 medium-6 column">
               <h3>Get steps ahead</h3>
               <p>Earn <b>BOTH</b> high school &amp; college credit simultaneously! </p>
             </div>

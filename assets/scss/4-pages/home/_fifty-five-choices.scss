@@ -78,7 +78,8 @@
   .fifty-five-quality-choices h2{
     background-image: url('#{$imagedir}55.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 99%;
+    height: 100px;
   }
   .fifty-five-quality-choices .row.space-bottom.double {
     padding-bottom: 0;
