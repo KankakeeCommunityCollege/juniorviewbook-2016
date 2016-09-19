@@ -62,7 +62,7 @@
 .save-time-money .grad-steps-ahead{
   padding: 20px 20px 5px 20px;
   color: $text-secondary-colour;
-  background-image: url('#{$imagedir}55-background.jpg');
+  background-image: url('#{$imagedir}grad-steps-ahead.jpg');
   background-size: cover;
 }
 
@@ -80,6 +80,11 @@
   height: 269px;
 }
 
+.grad-steps-ahead .steps-2{
+  background-image: url('#{$imagedir}clipboard.png');
+  background-repeat: no-repeat;
+    height: 223px;
+}
 .grad-steps-ahead-g p{
   border-top:1px solid white;
   border-bottom:1px solid white;
