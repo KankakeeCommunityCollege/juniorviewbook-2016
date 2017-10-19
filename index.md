@@ -23,7 +23,7 @@ keywords: Kankakee Community College, juniors, high school
     <div class="column">
       <h2 class="centered dual-enrollment">Dual Enrollment</h2>
       <div class="large-5 medium-5 columns">
-        <h3>Save money!</h3>
+        <h3 class="editable">Save money!</h3>
         <p>
           KCC is affordable. Tuition and fees are about one-fourth the cost
           of Illinois public colleges or universities, and a fraction of the cost
